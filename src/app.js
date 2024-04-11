@@ -10,7 +10,7 @@ const vdom = {
   children: [
     {
       tag: 'h1',
-      props: {},
+      props: { style: 'color:coral' },
       children: ['React 만들어보기'],
     },
     {
