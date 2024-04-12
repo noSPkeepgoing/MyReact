@@ -1,4 +1,4 @@
-import { createDOM } from './react';
+import { render } from './react';
 
 // 가상 돔을 만들어 보자!
 // HTML 구조 : 태그이름, 속성, 자식
@@ -37,4 +37,4 @@ const vdom = {
   ],
 };
 
-document.querySelector('#root').appendChild(createDOM(vdom));
+render(vdom, document.querySelector('#root'));
